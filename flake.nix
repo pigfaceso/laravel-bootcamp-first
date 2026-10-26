@@ -14,6 +14,7 @@
         packages = with pkgs; [
           php
           phpPackages.composer
+          laravel
         ];
       };
     };
