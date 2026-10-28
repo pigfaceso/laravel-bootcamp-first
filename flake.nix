@@ -1,5 +1,5 @@
 {
-  description = "Frist laravel by pigfaceso";
+  description = "Frist laravel Bootcamp by pigfaceso";
 
   inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
 
@@ -9,7 +9,7 @@
       pkgs = import nixpkgs { inherit system; };
     in {
       devShells.${system}.default = pkgs.mkShell {
-        name = "laravel-first";
+        name = "laravel-bootcamp-first";
 
         packages = with pkgs; [
           php
